@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(91, 139, 179) 50%, rgb(62, 37, 161));
+}
+
+.input-wrapper{
+    background-color: rgb(16, 15, 15);
+    width: 550px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    border-radius: 10px;
+    
+}
+.input-wrapper .date{
+    width: 280px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    font-weight: 600;
+    font-size: large;
+}
+.input-wrapper .calculate{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.output-wrapper{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+}
+
+.output-wrapper div{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 20px;
+    font-weight: 600;
+    font-size: large;
+    background-color: rgb(15, 11, 11);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    span{
+        font-size: 2rem;
+    }
+    p{
+        font-size: small;
+        opacity: 0.5;
+        font-weight: lighter;
+    }
+}
